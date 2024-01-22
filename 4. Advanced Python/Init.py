@@ -4,7 +4,7 @@ class PlayerCharacter:
     # Class Object Attribute
     membership = True
 
-    def __init__(self, name, age):
+    def __init__(self, name='Anonymous', age=0):
         if age > 18:
             self.name = name
             self.age = age
@@ -15,3 +15,4 @@ class PlayerCharacter:
 
 player1 = PlayerCharacter('Tom', 20)
 print(player1.shout())
+

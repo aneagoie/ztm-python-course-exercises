@@ -1,12 +1,12 @@
 # Attributes And Methods
 
 class PlayerCharacter:
-    # Class Object Attribute
+    # Class Object Attribute does not change across instances
     membership = True
 
-    def __init__(self, name, age):
-        if self.membership:     # Or PLayerCharacter.membership
-            self.name = name
+    def __init__(self, name, age):  # Dynamic
+        if self.membership:     # Or PlayerCharacter.membership
+            self.name = name    # attributes
             self.age = age
 
     def shout(self):
