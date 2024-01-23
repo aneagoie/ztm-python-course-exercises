@@ -11,4 +11,8 @@ class PlayerCharacter:
 
 
 player1 = PlayerCharacter('Tom', 20)
+player2 = PlayerCharacter('Cori', 30)
+
 player1.speak()
+player2.speak()
+

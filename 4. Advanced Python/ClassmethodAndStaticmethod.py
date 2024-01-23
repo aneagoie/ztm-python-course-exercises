@@ -6,7 +6,7 @@ class PlayerCharacter:
         self.age = age
 
     @classmethod
-    def adding_things(cls, num1, num2):
+    def adding_things(cls, num1, num2):   # cls stands for class
         return cls('Teddy', num1 + num2)
 
     @staticmethod
@@ -15,5 +15,5 @@ class PlayerCharacter:
 
 
 player3 = PlayerCharacter.adding_things(2, 3)   # Instantiated class using classmethod
-print(player3)
+print(player3.age)
 print(PlayerCharacter.adding_things2(5, 9))

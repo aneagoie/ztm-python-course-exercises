@@ -7,7 +7,7 @@ class User:
 
 
 # Sub Class/ Child Class/ Derived Class
-class Wizard(User):
+class Wizard(User):     # Pass the Parent class in paren for inheritance
     def __init__(self, name, power):
         self.name = name
         self.power = power
@@ -24,7 +24,8 @@ class Archer(User):
     def attack(self):
         print(f'Attacking with arrows: Arrows left- {self.num_arrows}')
 
-
+#Instantiation
+        
 wizard1 = Wizard('Merlin', 50)
 archer1 = Archer('Robbin', 100)
 wizard1.attack()
