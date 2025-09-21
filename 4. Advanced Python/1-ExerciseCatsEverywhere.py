@@ -1,5 +1,4 @@
 # Exercise Cats Everywhere
-
 # Given the below class:
 
 class Cat:

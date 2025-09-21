@@ -3,6 +3,7 @@
 is_magician = False
 is_expert = True
 
+
 # Check if magician and expert: "you are a master magician"
 if is_magician and is_expert:
     print("You are a master magician")

@@ -6,3 +6,4 @@ def do_stuff(num=0):
       return 'please enter number'
   except ValueError as err:
     return err
+  
