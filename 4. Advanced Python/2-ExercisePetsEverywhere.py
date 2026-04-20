@@ -95,7 +95,7 @@ class Chilli(Cat):
 
 
 # 2 Create a list of all the pets (create 3 cat instances from the above).
-my_cats = [Simon(Simon, 5), Sally(Sally, 7), Chilli(Chilli, 3)]
+my_cats = [Simon('Simon', 5), Sally('Sally', 7), Chilli('Chilli', 3)]
 
 # 3 Instantiate the Pet class with all your cats use variable my_pets.
 my_pets = Pets(my_cats)
